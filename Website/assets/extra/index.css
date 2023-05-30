@@ -1,0 +1,37 @@
+:root {
+  --theme: #e82344;
+  --themel: #ff3e63;
+  --accent: #161659;
+  --accentl: #212182;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #212223;
+  font-family: "Poppins";
+  font-size: 17px;
+}
+header {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin-bottom: -50px;
+  position: relative;
+  z-index: 1;
+}
+header .container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  position: relative;
+  background: var(--accent);
+}
+
+.site-menu {
+  display: flex;
+}

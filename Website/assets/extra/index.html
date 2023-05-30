@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo"></div>
+        <div class="site-menu">
+          <ul>
+            <li><a href="about">About us</a></li>
+            <li><a href="services">Services</a></li>
+            <!-- <li><a href="tracking">Tracking</a></li> -->
+            <li>
+              <a href="assets/pdf/atn-express-company-profile.pdf" download
+                >Company profile</a
+              >
+            </li>
+            <li><a href="contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="show-mobile">
+          <div class="hamburger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div class="navbar-button d-xl-flex">
+          <form
+            method="get"
+            action="tracking"
+            class="tracking position-relative me-3 mr-3"
+          >
+            <input type="text" name="awb" placeholder="AWB Number" />
+            <button type="submit" class="bg-transparent text-primary">
+              <i class="lni lni-search-alt"></i>
+            </button>
+          </form>
+
+          <a role="button" data-toggle="modal" data-target="#getQuote"
+            >GET A QUOTE</a
+          >
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
